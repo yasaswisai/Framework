@@ -19,8 +19,6 @@ public class GoogleQueryPOM {
 		PageFactory.initElements(this.webDriver, this);
 	}
 	
-	
-
 	public void navigate(String url) {
 		webDriver.navigate().to(url);
 	}
